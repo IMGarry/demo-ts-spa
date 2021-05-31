@@ -1,0 +1,15 @@
+.header-container div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.notScrollable {
+  overflow: hidden;
+}

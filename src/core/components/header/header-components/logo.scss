@@ -1,0 +1,34 @@
+.header-logo{
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    width: 80px;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 145% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    margin-left: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    
+    
+        &.top {
+          color: #fff;  
+          margin-top: 30px;
+          
+        }
+    
+        &.bottom {
+          color: #2196F3;
+          background-color: #fff;
+        }
+    }

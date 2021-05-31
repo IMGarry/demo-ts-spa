@@ -1,0 +1,115 @@
+
+.reg-card{
+	width: 639px;
+height: 460px;
+background: #FCFCFC;
+box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.07);
+border-radius: 15px;
+display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+	position: fixed;
+  z-index: 10000;
+	top: calc(50vh - 320px);
+  left: calc(50vw - 240px);
+	background-color: white;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+.reg-card-title{
+
+// font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 145%;
+margin-bottom: 34px;
+width: 314px;
+}
+
+.reg-card input {
+border: 0;
+border-bottom: 2px solid #D3D3D3;
+width: 314px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 154%;
+color: #0B0B0B;
+/* margin-bottom: 3px; */
+padding-bottom: 5px;
+margin-bottom: 20px;
+}
+
+
+.reg-card input::placeholder {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 154%;
+	color: #B5B5B5;
+
+	}
+
+
+
+
+.reg-card label {
+	width: 314px;
+	display: block;
+
+	font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 145%;
+padding-bottom: 3px;
+color: #7B7B7B;;
+
+	}
+
+
+.reg-card button {
+	width: 108px;
+	height: 36px;
+	background: #2196F3;
+border-radius: 5px;
+border: 0;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.form-feedback button.invalid
+{
+	background: #D3D3D3; 
+}
+
+.cover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1001;
+}
+
+.hidden-card {
+  display: none;
+}
+
+
